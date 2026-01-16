@@ -25,7 +25,7 @@ const Menu = () => {
           <SheetTrigger className="align-middle">
             <EllipsisVertical />
           </SheetTrigger>
-          <SheetContent className="flex flex-col items-start">
+          <SheetContent className="flex flex-col items-center gap-4 pt-5">
             <SheetTitle>Menu</SheetTitle>
             <SheetDescription></SheetDescription>
             <ModeToggle />
